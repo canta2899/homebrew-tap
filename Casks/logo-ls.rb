@@ -4,12 +4,12 @@ cask "logo-ls" do
 
   on_macos do
     on_intel do
-      sha256 "95f662375aaae8c3ef091f699445e437daee0b5ce2ed9a376d98a8e86039c588"
+      sha256 "8187673b47086d4244af7635526a1c568bb4ef4667d9a1ec305c201648ee4ad2"
       url "https://github.com/canta2899/logo-ls/releases/download/v#{version}/logo-ls-v#{version}-darwin-amd64.tar.gz",
         verified: "github.com/canta2899/logo-ls/"
     end
     on_arm do
-      sha256 "bd98853408e4ea350748a41708b5ca5a799865a99697b3e37e82d97651c5749f"
+      sha256 "280d4aff3cb764894fc8167b4d8cfaea53980bd8ba91f19be649e22e6de9c4b2"
       url "https://github.com/canta2899/logo-ls/releases/download/v#{version}/logo-ls-v#{version}-darwin-arm64.tar.gz",
         verified: "github.com/canta2899/logo-ls/"
     end
@@ -17,12 +17,12 @@ cask "logo-ls" do
 
   on_linux do
     on_intel do
-      sha256 "2b5fa16b27551a8d24d65a2a03ea75e0ffb1da3d3275a74eb27334e1f17fb7ed"
+      sha256 "1cfbb0db4d90df4553be53fc864f7f443412558f8f9adab5cbf4a94f405b8a99"
       url "https://github.com/canta2899/logo-ls/releases/download/v#{version}/logo-ls-v#{version}-linux-amd64.tar.gz",
         verified: "github.com/canta2899/logo-ls/"
     end
     on_arm do
-      sha256 "010a652c7966fa41d76950c4c87e999f7bf60698abff5039b9242bc950f7b32a"
+      sha256 "5002b25c918cb0f7b8a72825a9dad9e22696076c406e60dc72e82c189a596f43"
       url "https://github.com/canta2899/logo-ls/releases/download/v#{version}/logo-ls-v#{version}-linux-arm64.tar.gz",
         verified: "github.com/canta2899/logo-ls/"
     end
